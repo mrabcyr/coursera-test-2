@@ -1,0 +1,63 @@
+.main-content {
+    font-family: "LXGW WenKai Mono TC", monospace;
+    margin: 0;
+}
+
+.logo {
+    background-color: #FFDAA8; 
+    height: 108px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 52px;
+    color: #88362C;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.title {
+    text-align: center;
+    height: 96px;
+    background-color: #88362C;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+h2 {
+    font-size: 42px;
+    color: #FFDAA8;
+    font-weight: 800;
+}
+
+.main-container {
+    background-color: #88362C;
+    width: 100%;
+    height: 100%;
+}
+
+h3, p {
+    color: #4B92AD;
+    font-weight: 800;
+}
+
+p {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#chicken-container, 
+#beef-container, 
+#sushi-container {                      
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 16px;
+    border: 3px solid #4B92AD;
+    padding: 20px;
+    margin: 20px;
+    background-color: #FFDAA8;
+    margin-bottom: 40px;
+}
